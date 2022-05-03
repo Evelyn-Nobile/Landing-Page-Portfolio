@@ -133,7 +133,7 @@ margin-top: 2rem;
     flex-direction: column;
     justify-content: center;  
     align-items: center; 
-    width: 100vw;
+    
 
 }
  .card .info-card{
@@ -150,7 +150,7 @@ margin-top: 2rem;
     margin: 10px 0;
     padding: 5px;
     margin-left: 8rem;
-  
+    width: 100vw;
 }
 
 .card p{
@@ -183,6 +183,7 @@ margin-top: 2rem;
 
 /* Fin sección 1 */
 /* Sección 2 */
+
 .seccion2 p {
    margin-top: 3rem;
    margin-left: 12rem;
@@ -214,7 +215,17 @@ margin-top: 2rem;
 .seccion2 p:hover {
     text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
   }
-
+  .card-work{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  .work{
+   
+    width: 100vw;
+  }
 .work  p{
     color: var(--colortexto);
     text-align: center;
