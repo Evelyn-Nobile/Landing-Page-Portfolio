@@ -131,9 +131,10 @@ margin-top: 2rem;
 .card__container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 2rem;
+    justify-content: center;  
+    align-items: center; 
+    width: 100vw;
+
 }
  .card .info-card{
     width: 70%;
