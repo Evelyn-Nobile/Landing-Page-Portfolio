@@ -99,9 +99,10 @@ display: block;
 
 .seccion1 p {
 display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
+justify-content:space-between;
+align-items:center;
+text-align: right;
+margin-left: 2rem;
 font-size: 3rem;
 margin-bottom: 0.938rem;
 margin-top: 2rem;
@@ -127,7 +128,13 @@ margin-top: 2rem;
 .seccion1 p:hover {
     text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
   }
-
+.card__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
  .card .info-card{
     width: 70%;
     margin-bottom: 0.5rem;
@@ -141,16 +148,17 @@ margin-top: 2rem;
     align-items: center;
     margin: 10px 0;
     padding: 5px;
-   
+    margin-left: 8rem;
   
 }
 
 .card p{
-    max-width: 31.25rem;
+    width:400px;
     text-align: center;
     font-size: 1.5rem;
   color: var(--colortexto);
   line-height: 2rem;
+  margin-left: 3rem;
   
 }
 
@@ -162,13 +170,13 @@ margin-top: 2rem;
 
 
 .info3{
-    max-width: 31.25rem;
+    width:400px;
     text-align: center;
     font-size: 1.5rem;
   color: var(--colortexto);
   line-height: 2rem;
-  margin-top: 5rem;
-  
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
 
@@ -176,6 +184,7 @@ margin-top: 2rem;
 /* Sección 2 */
 .seccion2 p {
    margin-top: 3rem;
+   margin-left: 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,6 +220,9 @@ margin-top: 2rem;
     font-size: 1.5rem;
     line-height: 2rem;
     margin-top: 0.5rem;
+    margin-left: 3rem;
+width: 400px;
+
 }
 
 .work .info4{
