@@ -18,7 +18,7 @@ html {
 html{
     background-color:#1c1c1c;
     font-family: 'Lato' sans-serif;
-    width: 90%
+ 
 }    
 
 
@@ -82,29 +82,46 @@ margin: 0.875rem;
 display: block;
 }
 
+.inicio{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 
+}
 .imagen-perfil{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 10rem;
-    min-width: 31.25rem;
+    width: 100vw;
+    
    
 }
 .imagen-perfil img{
-    width: 21.875rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   max-width: 21.875rem;
     height: 22rem;
-   
+    margin-left: 5rem;
+    
 }
 
 /* Seccion 1 */
 
 .seccion1 p {
-display: flex;
-justify-content:space-between;
-align-items:center;
-text-align: right;
-margin-left: 2rem;
-font-size: 3rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     max-width: 500px;
+     font-size: 3rem;   
 margin-bottom: 0.938rem;
 margin-top: 2rem;
   -webkit-box-sizing: border-box;
@@ -138,19 +155,12 @@ margin-top: 2rem;
 
 }
  .card .info-card{
-    width: 70%;
+    
     margin-bottom: 0.5rem;
     margin-top: 5rem;
 }
 
 .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    padding: 5px;
-    margin-left: 8rem;
     width: 100vw;
 }
 
