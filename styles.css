@@ -217,6 +217,7 @@ z-index: 1;
     
     font-size: 17px;
 }
+
 /* contacto */
 .contacto{
     display: flex;
@@ -429,7 +430,7 @@ height: 80px;
 
   .cards-1{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     gap: 3rem;
@@ -458,6 +459,14 @@ margin-left: 2rem;
 }
 .img3{
     margin-top: 3rem;
+ }
+
+ .img2{
+     margin-left: 1.2rem;
+ }
+ .text3{
+     margin-right: 4rem;
+
  }
 .seccion2 {
     display: flex;
@@ -495,6 +504,7 @@ margin-left: 2rem;
 .cards-2 img{
     width: 300px;
     height: 300px;
+    margin-top: 0;
 }
 
 .cards-2 p{
@@ -504,7 +514,12 @@ margin-left: 2rem;
    margin-left: 1.3rem;
    font-size: 23px;
 }
-
+ .step4{
+     margin-top: 7rem;
+ }
+ .texto3{
+     margin-top: 0rem;
+ }
 /* contacto */
 .contacto{
     display: flex;
