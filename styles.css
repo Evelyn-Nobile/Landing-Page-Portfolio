@@ -595,8 +595,14 @@ height: 80px;
  .step4{
      margin-top: 7rem;
  }
+ .texto2{
+     margin-top: 3rem;
+ }
  .texto3{
-     margin-top: 0rem;
+     margin-top: 0;
+ }
+ .texto4{
+     margin-top: 0;
  }
  /* pryectos */
  .proyectos{
