@@ -53,7 +53,8 @@ html {
     }
     .logo img{
        margin: 0 auto;
-     width: 340px;
+     width: 400px;
+     height: 400PX;
     }
 
 
@@ -400,8 +401,8 @@ height: 80px;
 }
 .logo img{
    margin-top: 5rem;
- height: 400px;
- width: 400px;
+ height: 500px;
+ width: 500px;
 }
 .title-container {
     display: flex;
@@ -451,23 +452,23 @@ height: 80px;
 }
 
 .cards-1 p:nth-child(2){
-margin-left: 2rem;
-}
+    margin-left: 2rem;
+    }
 
 .img1{
-   margin-top: 5rem;
+    margin-top: 5rem;
+ }
+ .img3{
+     margin-top: 3rem;
+  }
+ 
+  .img2{
+    margin-left: 1.2rem;
 }
-.img3{
-    margin-top: 3rem;
- }
-
- .img2{
-     margin-left: 1.2rem;
- }
- .text3{
-     margin-right: 4rem;
-
- }
+  .text3{
+      margin-right: 4rem;
+ 
+  }
 .seccion2 {
     display: flex;
     justify-content: center;
