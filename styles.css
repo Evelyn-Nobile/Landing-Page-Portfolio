@@ -131,12 +131,12 @@ z-index: 1;
 }
 
 .title-container h2{
-    margin-top: 10rem;
+    margin-top: 1rem;
     display: inline-block;
     box-sizing: border-box;
     padding: 10px;
     border: none;
-    font: normal 35px/normal "Popins", Helvetica, sans-serif;
+    font: normal 25px/normal "Popins", Helvetica, sans-serif;
     color: rgba(255,255,255,1);
     text-decoration: normal;
     text-align: center;
@@ -192,7 +192,7 @@ z-index: 1;
     box-sizing: border-box;
     padding: 10px;
     border: none;
-    font: normal 35px/normal "Popins", Helvetica, sans-serif;
+    font: normal 25px/normal "Popins", Helvetica, sans-serif;
     color: rgba(255,255,255,1);
     text-decoration: normal;
     text-align: center;
@@ -233,13 +233,13 @@ flex-direction: column;
     width: 100%;
 }
  .proyectos h2{
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     display: inline-block;
     box-sizing: border-box;
     padding: 10px;
     border: none;
-    font: normal 35px/normal "Popins", Helvetica, sans-serif;
+    font: normal 25px/normal "Popins", Helvetica, sans-serif;
     color: rgba(255,255,255,1);
     text-decoration: normal;
     text-align: center;
@@ -273,7 +273,7 @@ flex-direction: column;
   text-align: center;  
   border-radius: 5rem;
   padding: 1rem;
- font-size: 1rem;
+ font-size: 0.75rem;
   background-image: linear-gradient(60deg, rgba(28,28,28,1) 0%, rgba(254,1,154,1) 33%, rgba(0,255,255,1) 100%);
   cursor: pointer;
   color: white;
@@ -281,8 +281,8 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
  margin-top: 2rem;
- width: 8rem;
- margin-left: 1rem;
+ width: 6rem;
+ margin-left: 2rem;
  margin-bottom: 2rem;
 
 }
@@ -304,12 +304,12 @@ flex-direction: column;
     width: 100%;
 }
 .contacto h2{
-    margin-top: 10rem;
+    margin-top: 5rem;
     display: inline-block;
     box-sizing: border-box;
     padding: 10px;
     border: none;
-    font: normal 35px/normal "Popins", Helvetica, sans-serif;
+    font: normal 25px/normal "Popins", Helvetica, sans-serif;
     color: rgba(255,255,255,1);
     text-decoration: normal;
     text-align: center;
